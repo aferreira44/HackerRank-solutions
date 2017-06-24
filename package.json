@@ -1,0 +1,25 @@
+{
+  "name": "hackerrank-solutions",
+  "version": "0.0.1",
+  "description": "My HackerRank Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aferreira44/HackerRank-solutions.git"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "André Ferreira",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/aferreira44/HackerRank-solutions/issues"
+  },
+  "homepage": "https://github.com/aferreira44/HackerRank-solutions#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
