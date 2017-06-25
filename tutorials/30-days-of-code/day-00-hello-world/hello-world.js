@@ -1,7 +1,7 @@
-// Receive the string "Welcome to 30 Days of Code!" as parameter and print it after 'Hello, World'
-function processData(inputString) {
+// Receive the string "Welcome to 30 Days of Code!" as parameter
+// and print it after 'Hello, World'
 
-    process.stdout.write("Hello, World.\n");
-
-    process.stdout.write(inputString);
+exports.processData = inputString => {
+    const result = "Hello, World.\n" + inputString
+    return result
 }
